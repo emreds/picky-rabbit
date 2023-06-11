@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "picky-rabbit"
+version = "0.1.0"
+description = ""
+authors = ["Emre Demir <emredemireng@gmail.com>"]
+readme = "README.md"
+packages = [{include = "picky-rabbit"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.22.0"
+langchain = "^0.0.175"
+streamlit-chat = "^0.0.2.2"
+streamlit-extras = "^0.2.7"
+openai = "^0.27.7"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
