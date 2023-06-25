@@ -6,7 +6,7 @@ LLM Powered Food Content Information Chatbot
 
 ## What does Picky Rabbit do?
 
-Picky Rabbit is an OpenAI LLM-powered chatbot that provides information about the contents of packaged food products. It helps users make informed choices by offering details on ingredients, nutritional values, allergens, and more.
+Picky Rabbit is an OpenAI LLM-powered chatbot that provides information about the contents of packaged food products. It helps users make informed choices by offering details on ingredients, nutritional values, allergens, and more. In the second version, the chatbot incorporates Similarity Search with LLMs, enabling it to respond by considering the food data stored in the compact vector database FAISS.
 
 ## How to run locally?
 
